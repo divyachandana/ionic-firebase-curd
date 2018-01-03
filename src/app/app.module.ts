@@ -15,13 +15,14 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AngularFireModule } from 'angularfire2';
 import { FirebaseProvider } from './../providers/firebase/firebase';
 
+//add your own firebase api
 const config = {
-  apiKey: "AIzaSyDmTlSd-G60V4i1YySjTX-cE5-OTfFs00M",
-  authDomain: "checkboxproject.firebaseapp.com",
-  databaseURL: "https://checkboxproject.firebaseio.com",
-  projectId: "checkboxproject",
-  storageBucket: "checkboxproject.appspot.com",
-  messagingSenderId: "431182699308"
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: ""
 };
 
 @NgModule({
